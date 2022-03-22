@@ -1,0 +1,36 @@
+body{
+    background-color: #ccffcc;
+    color: blue;
+}
+
+h2{
+    color: brown;
+}
+
+.cabecera{
+    color:red
+}
+
+.section1 .titulo_section1{
+    color: brown;
+}
+
+.section1 .ul_section1 .li_section1 .span_section1{
+    color: green;
+}
+
+.descripcion__libro--p1 b{
+    font-size: 25px;
+}
+
+/*
+.descripcion__libro--p1 i{
+    color: white;
+    background-color: black;
+}
+*/
+
+i{
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,44 @@
+body{
+    background-color: aliceblue;
+    color: purple;
+}
+.container{
+color: green;
+font-size: 30px;
+}
+
+.titulo{
+    color: yellow;
+    font-weight: 700;
+}
+
+.titulo{
+    color: red;
+}
+
+.titulo{
+color: blue;
+font-size: 50px;
+}
+.titulo span{
+color: brown;
+font-size: 20px;
+}
+
+/* Especificidad */
+*{
+    color: blue;
+}
+h2{
+    color: red;
+}
+
+.titulo{
+    color: green;
+}
+.container{
+    background-color: red !important;
+}
+#container{
+    background-color: gray;
+}
