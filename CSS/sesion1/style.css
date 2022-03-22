@@ -1,0 +1,51 @@
+/*
+SELECTOR --> es el elemento html que tendra los estilos
+1. mediante etiqueta html --h1,h2...,h6,header,p,a,span,div,li,ul,ol,table
+2.clases -- "." "nombre_de_la_clase" .titulo
+3.id --- "#" "nombre_de_la_id" #titulo
+
+propiedad: valor; -->ambas declaradas en lowercase y separadas mediante "."
+
+/*Selectores por etiqueta*/
+/*h1{
+    color: rgb(230, 6, 6);
+}*/
+
+/*
+selectores de clase
+.parrafo{
+    color: rgb(230, 6, 6);
+}
+
+.titulo{
+    color: blue;
+}
+
+.subtitulo{
+    color: green;
+}
+*/
+
+
+/*Selectores de id*/
+
+/*#titulo_id{
+    color: blue;
+}
+#parrafo_id{
+    color: red;
+}
+
+#subtitulo_id{
+    color: green;
+}*/
+h1{
+    color: blue;
+}
+.parrafo{
+    color: red;
+}
+
+#subtitulo_id{
+    color: green;
+}

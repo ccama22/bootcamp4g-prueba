@@ -1,0 +1,66 @@
+/*Selector universal*/
+*{
+    color: blue;
+}
+
+/*Selector de desendencia*/
+/*h1 span{
+    color: brown;
+}
+div h1 span{
+    color: aquamarine;
+}
+.contenedor .titulo .resaltar{
+    color: yellow;
+}*/
+.contenedor h1 .resaltar{
+    color: yellow;
+}
+
+.contenedor.padre{
+    background-color: aquamarine;
+}
+
+.elemento_padre{
+    background-color: aqua;
+}
+
+/*selecciones todos los hijos directos que son los parrafos de una etiqueta div*/
+div > p{
+    color: black;
+}
+
+.elemento_padre >p{
+    color: brown;
+}
+
+.elemento_padre > .elemento_hijo_parrafo{
+    color: blueviolet;
+}
+
+.parrafos{
+    background-color: rgb(194, 42, 42);
+}
+
+/*.parrafos > p{
+    color: coral;
+}
+
+.parrafos p{
+    color: rgb(208, 255, 80);
+}*/
+
+
+.parrafos p + p{
+    color:darkgoldenrod
+}
+
+section,article{
+    background-color: darkslategrey;
+}
+
+.subtitulo_css{
+    color: darkolivegreen;
+    font-size: 30px;
+    font-weight: 400;
+}
